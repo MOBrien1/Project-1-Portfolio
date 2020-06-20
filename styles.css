@@ -15,26 +15,30 @@
 }
 
     h2 {
-    font-size: 2rem;
+    font-size: 12;
     color: #ffffff;
     padding: 2rem;
 }
 
     header {
     display: flex;
-    padding: 5px;
-    justify-content: baseline;
-    margin: 2%;
+    padding: 1%;
+    justify-content: flex-start;
 }
+
+    #header-image {
+        height: 700px;
+    }
 
     #profile-image {
     height: 300px;
 }
 
-    #about-me {
+    div#About-me {
     display: flex;
-    flex-direction: row;
-    flex-grow: 1;
+    flex: 0 20%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
 }
 
     #about-me-image {
@@ -42,25 +46,52 @@
     width: 200px;
 }
 
-    #Projects {
+    div#Projects {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
     .Project-example {
     display: flex;
-    height: 100px;
+    flex-flow: row wrap;
     margin-bottom: 2%;
-    justify-content: center;
+    justify-content: space-around
+    align-items: center;
+
 }
 
     p {
+    display: flex;
+    flex-flow: row wrap;
     color: #ffffff;
-    flex-wrap: wrap;
     width: 40%;
-    font-size: 2rem;
+    flex-basis: 1;
+    font-size: 1rem;
 }
+
+    #socials {
+    display: flex;
+    flex-basis: 1; 
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+    #email {
+        display: inline;
+        height: 20%;
+    }
+
+    #linkedin {
+        display: inline;
+        height: 20%;
+    }
+
+    #contact {
+        display: inline;
+        height: 20%;
+    }
 
     footer {
     width: 100%;
