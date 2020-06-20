@@ -1,0 +1,78 @@
+/*** portfolio CSS***/
+/*** #547980 light; & #1e3135 dark ***/
+@media (max-width: 1440px) {
+    html {
+    background-color: #1e3135;
+}
+
+    h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    color: #547980;
+    display: inline-flex;
+    border: 2px solid white; 
+    padding: 2rem;
+}
+
+    h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 2rem;
+}
+
+    header {
+    display: flex;
+    padding: 5px;
+    justify-content: baseline;
+    margin: 2%;
+}
+
+    #profile-image {
+    height: 300px;
+}
+
+    #about-me {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+    #about-me-image {
+    height: 200px;
+    width: 200px;
+}
+
+    #Projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+    .Project-example {
+    display: flex;
+    height: 100px;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+    p {
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: 40%;
+    font-size: 2rem;
+}
+
+    footer {
+    width: 100%;
+    text-align: center;
+}
+
+/***contact page***/
+#contact-page-image {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+/***PHONE MEDIA QUERY***/
