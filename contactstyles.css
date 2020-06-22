@@ -1,8 +1,49 @@
-header {
-    width: 100%;
+#contact-page-image {
+    height: 500px;
+    width: 500px;
 }
 
-body {
-    font: arial;
-    color: #ffffff;
+div.form-item {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: center;
+    flex: 0 20%; 
+}
+
+input {
+    border-bottom: solid 1px white;
+    border-top: #1e3135;
+    border-left: #1e3135;
+    border-right: #1e3135;
+    background-color: #1e3135;
+    padding: 2px;
+}
+
+textarea {
+    border-bottom: solid 1px white;
+    background-color: #1e3135;
+    border-top: #1e3135;
+    border-left: #1e3135;
+    border-right: #1e3135;
+    padding: 2px
+}
+
+label {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1rem;
+    color: #547980;
+    display: inline-flex;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+button {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1rem;
+    color: #547980;
+    background-color: #1e3135;
+    border: solid 1px white;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 2rem;
 }

@@ -12,18 +12,19 @@
     display: inline-flex;
     border: 2px solid white; 
     padding: 2rem;
+    width: 20%;
 }
 
     h2 {
-    font-size: 12;
-    color: #ffffff;
-    padding: 2rem;
+        font-size: 12;
+        color: #ffffff;
+        padding: 2rem;
 }
 
     header {
-    display: flex;
-    padding: 1%;
-    justify-content: flex-start;
+        display: flex;
+        padding: 1%;
+        justify-content: center;
 }
 
     #header-image {
@@ -49,8 +50,9 @@
     div#Projects {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: baseline;
+    margin-left: 10%;
 }
 
     .Project-example {
@@ -63,20 +65,24 @@
 }
 
     p {
-    display: flex;
-    flex-flow: row wrap;
-    color: #ffffff;
-    width: 40%;
-    flex-basis: 1;
-    font-size: 1rem;
+        display: flex;
+        flex-flow: row wrap;
+        color: #ffffff;
+        width: 40%;
+        flex-basis: 1;
+        font-size: 1rem;
 }
 
     #socials {
-    display: flex;
-    flex-basis: 1; 
-    flex-flow: column wrap;
-    justify-content: center;
+        display: flex;
+        flex-basis: 1; 
+        flex-flow: column wrap;
+        justify-content: center;
 }
+
+    a:link {
+        color: #ffffff;
+    }
 
     #email {
         display: inline;
