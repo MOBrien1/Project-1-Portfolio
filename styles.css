@@ -21,22 +21,28 @@
     header {
         display: flex;
         padding: 1%;
-        justify-content: center;
+        justify-content: space-between;
 }
 
     #header-image {
-        height: 700px;
+        height: 650px;
     }
 
     #profile-image {
         height: 300px;
+        border-radius: 180px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
 }
 
     div#About-me {
     display: flex;
     flex: 0 20%;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
 }
 
     #about-me-image {
@@ -47,25 +53,26 @@
     div#Projects {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    align-items: baseline;
-    margin-left: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
 }
 
     .Project-example {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     margin-bottom: 2%;
     justify-content: center;
     align-items: center;
+    flex-grow: 2;
 }
 
     p {
         display: flex;
         flex-flow: row wrap;
         color: #ffffff;
-        width: 40%;
-        flex-basis: 1;
+        width: 60%;
+        flex-basis: 2;
         font-size: 1rem;
 }
 
@@ -145,16 +152,20 @@
         width: 100px;
         padding: 2rem;
         padding-left: 0px;
+        border-radius: 25px;
     }
 
     div#About-me {
         display: flex;
         flex-flow: column wrap;
+        margin-left: 0px;
     }
 
     div#Projects {
         display: flex;
         flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
         margin: 8px;
         margin-left: 0px;
     }
