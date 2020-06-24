@@ -153,12 +153,15 @@
         padding: 2rem;
         padding-left: 0px;
         border-radius: 25px;
+        margin: 0px;
     }
 
     div#About-me {
         display: flex;
         flex-flow: column wrap;
         margin-left: 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
 
     div#Projects {
@@ -177,6 +180,7 @@
         width: 100%;
         font-size: 12px;
         padding: 8px;
+        margin: 0px;
     }
 
     #about-me-image {
