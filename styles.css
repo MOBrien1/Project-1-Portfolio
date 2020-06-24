@@ -136,7 +136,7 @@
     }
     
     #header-image {
-        height: 250px;
+        height: 260px;
         width: 270px;
         }
     
@@ -181,5 +181,12 @@
         margin-bottom: 2%;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+
     }
     }
