@@ -34,7 +34,7 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         margin-left: 2rem;
-}
+    }
 
     div#About-me {
     display: flex;
@@ -114,12 +114,64 @@
     text-align: center;
 }
 
-/***PHONE MEDIA QUERY***/
-@media (max-width: 300px) {
-    html {
-        background-color: #1e3135;
+/***Smaller Scree MEDIA QUERY***/
+@media (max-width: 900px) {
+    header{
+        justify-content: center;
+    }
+    
+    #header-image {
+        height: 300px;
     }
 
+    #profile-image {
+        height: 100px;
+        border-radius: 180px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+    }
+    
+    div#Projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    div#Project-1.Project-example {
+        flex-grow: 0;
+    }
+    div#Project-2.Project-example {
+        flex-grow: 0;
+    }
+    div#Project-3.Project-example  {
+        flex-grow: 0;
+    }
+    div#Project-4.Project-example {
+        flex-grow: 0;
+    }
+
+   div#About-me {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+   }
+
+   p {
+       width: 100%;
+   }
+}
+
+
+
+
+
+
+
+
+
+/***PHONE MEDIA QUERY***/
+@media (max-width: 300px) {
     h1 {
         font-family: 'Abril Fatface', cursive;
         font-size: 14px;

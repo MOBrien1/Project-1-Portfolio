@@ -19,6 +19,12 @@
     width: 90%;
 }
 
+    div.message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     input {
     border-bottom: solid 1px white;
     border-top: #1e3135;
@@ -109,5 +115,9 @@
         padding: 8px;
         margin: 8px;
         width: 30%;
+    }
+
+    form {
+        display: inline;
     }
 }
