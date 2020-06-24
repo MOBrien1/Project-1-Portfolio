@@ -1,43 +1,48 @@
-#contact-page-image {
-    height: 500px;
-    width: 500px;
-}
-
-div.form-item {
+@media (max-width: 1440px) {
+    /***contact page***/
+    #contact-page-image {
     display: flex;
-    flex-direction: column wrap;
     justify-content: center;
-    flex: 0 20%; 
+    height: 400px;
+    width: 400px;
 }
 
-input {
+    div.form-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+    input {
     border-bottom: solid 1px white;
     border-top: #1e3135;
     border-left: #1e3135;
     border-right: #1e3135;
     background-color: #1e3135;
     padding: 2px;
+    margin-bottom: 2rem;
 }
 
-textarea {
+    textarea {
     border-bottom: solid 1px white;
     background-color: #1e3135;
     border-top: #1e3135;
     border-left: #1e3135;
     border-right: #1e3135;
-    padding: 2px
+    padding: 2px;
+    margin-bottom: 2rem;
 }
 
-label {
+    label {
     font-family: 'Abril Fatface', cursive;
     font-size: 1rem;
     color: #547980;
-    display: inline-flex;
     padding: 1rem;
-    margin-left: 3rem;
+    margin: 1rem;
 }
 
-button {
+    button {
     font-family: 'Abril Fatface', cursive;
     font-size: 1rem;
     color: #547980;
@@ -46,4 +51,57 @@ button {
     border-radius: 25px;
     padding: 8px;
     margin: 2rem;
+}
+}
+
+/***PHONE MEDIA QUERY***/
+@media (max-width: 300px) {
+    #contact-page-image {
+        height: 250px;
+        width: 270px;
+
+    }
+
+    div.form-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 8px;
+    }
+
+    form {
+        margin-top: 12px;
+    }
+
+    label {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 1rem;
+        color: #547980;
+        padding: 0px;
+        margin: 2px;
+        margin-left: 8px;
+    }
+
+    img#contact-page-image {
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 3rem;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    input {
+        margin: 3px;
+    }
+
+    textarea {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        padding: 8px;
+        margin: 8px;
+        width: 30%;
+    }
 }

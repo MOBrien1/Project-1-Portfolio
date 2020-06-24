@@ -9,10 +9,7 @@
     font-family: 'Abril Fatface', cursive;
     font-size: 2rem;
     color: #547980;
-    display: inline-flex;
-    border: 2px solid white; 
-    padding: 2rem;
-    width: 20%;
+    padding: 8px;
 }
 
     h2 {
@@ -32,7 +29,7 @@
     }
 
     #profile-image {
-    height: 300px;
+        height: 300px;
 }
 
     div#About-me {
@@ -59,9 +56,8 @@
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 2%;
-    justify-content: space-around
+    justify-content: center;
     align-items: center;
-
 }
 
     p {
@@ -75,9 +71,10 @@
 
     #socials {
         display: flex;
-        flex-basis: 1; 
         flex-flow: column wrap;
         justify-content: center;
+        align-content: center;
+        padding-bottom: 3rem;
 }
 
     a:link {
@@ -86,17 +83,23 @@
 
     #email {
         display: inline;
-        height: 20%;
+        height: 50px;
     }
 
     #linkedin {
         display: inline;
-        height: 20%;
+        height: 50px;
     }
 
     #contact {
         display: inline;
-        height: 20%;
+        height: 50px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
     }
 
     footer {
@@ -104,12 +107,79 @@
     text-align: center;
 }
 
-/***contact page***/
-#contact-page-image {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    width: 400px;
-}
-
 /***PHONE MEDIA QUERY***/
+@media (max-width: 300px) {
+    html {
+        background-color: #1e3135;
+    }
+
+    h1 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 14px;
+        color: #547980;
+        padding: 8px;
+        padding-top: 0px;
+    }
+    
+    h2 {
+        font-size: 14px;
+        padding: 8px;
+        margin-top: 0px;
+    }
+    
+    header {
+        display: flex;
+        flex-flow: column-reverse wrap;
+        padding: 8px;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    #header-image {
+        height: 250px;
+        width: 270px;
+        }
+    
+    #profile-image {
+        height: 120px;
+        width: 100px;
+        padding: 2rem;
+        padding-left: 0px;
+    }
+
+    div#About-me {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    div#Projects {
+        display: flex;
+        flex-flow: column wrap;
+        margin: 8px;
+        margin-left: 0px;
+    }
+
+    p {
+        display: flex;
+        flex-flow: row wrap;
+        color: #ffffff;
+        width: 100%;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #about-me-image {
+        display: flex;
+        height: 10%;
+        width: 10%;
+        justify-content: flex-start;
+    }
+
+    .Project-example {
+        display: flex;
+        flex-flow: column wrap;
+        margin-bottom: 2%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    }
