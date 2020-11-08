@@ -63,6 +63,10 @@
     padding: 8px;
     margin: 2rem;
 }
+
+    p {
+        font-family: 'Nobile', sans-serif;
+    }
 }
 
 /***PHONE MEDIA QUERY***/

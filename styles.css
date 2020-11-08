@@ -2,26 +2,35 @@
 /*** #547980 light; & #1e3135 dark ***/
 @media (max-width: 1440px) {
     html {
-    background-color: #1e3135;
+    background-color: #547980;
 }
 
     h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-size: 2rem;
-    color: #547980;
-    padding: 8px;
+        font-family: 'Nobile', sans-serif;
+        font-size: 2rem;
+        color: blue; 
+        padding: 8px;
+        padding-left: 5%;
 }
 
     h2 {
         font-size: 12;
-        color: #ffffff;
+        color: white;
         padding: 2rem;
+        font-family: 'Nobile', sans-serif;
+}
+
+    h3 {
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Nobile', sans-serif;
+        padding-left: 5%;
 }
 
     header {
         display: flex;
         padding: 1%;
-        justify-content: space-between;
+        justify-content: flex-start;
 }
 
     #header-image {
@@ -52,7 +61,7 @@
 
     div#Projects {
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
     justify-content: space-evenly;
     align-items: center;
     margin-left: 2rem;
@@ -70,10 +79,11 @@
     p {
         display: flex;
         flex-flow: row wrap;
-        color: #ffffff;
+        color: white;
         width: 60%;
         flex-basis: 2;
         font-size: 1rem;
+        font-family: 'Nobile', sans-serif;
 }
 
     #socials {
@@ -90,17 +100,17 @@
 
     #email {
         display: inline;
-        height: 50px;
+        height: 100px;
     }
 
     #linkedin {
         display: inline;
-        height: 50px;
+        height: 100px;
     }
 
     #contact {
-        display: inline;
-        height: 50px;
+        height: 200px;
+        color: #ffffff;
     }
 
     nav {
