@@ -2,7 +2,7 @@
 /*** #547980 light; & #1e3135 dark ***/
 @media (max-width: 1440px) {
     html {
-    background-color: #547980;
+    background-color: white;
 }
 
     h1 {
@@ -11,18 +11,19 @@
         color: blue; 
         padding: 8px;
         padding-left: 5%;
+        padding-right: 5%;
 }
 
     h2 {
         font-size: 12;
-        color: white;
+        color: blue;
         padding: 2rem;
         font-family: 'Nobile', sans-serif;
 }
 
     h3 {
         font-size: 1.5rem;
-        color: white;
+        color: #547980;
         font-family: 'Nobile', sans-serif;
         padding-left: 5%;
 }
@@ -79,7 +80,7 @@
     p {
         display: flex;
         flex-flow: row wrap;
-        color: white;
+        color: #547980;
         width: 60%;
         flex-basis: 2;
         font-size: 1rem;
@@ -95,7 +96,13 @@
 }
 
     a:link {
-        color: #ffffff;
+        /* display: flex;
+        justify-content: center; */
+        color: #547980;
+        /* width: 60%; */
+        /* flex-basis: 2; */
+        font-size: 1rem;
+        font-family: 'Nobile', sans-serif;
     }
 
     #email {
@@ -122,6 +129,13 @@
     footer {
     width: 100%;
     text-align: center;
+}
+
+#recent-activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /***Smaller Scree MEDIA QUERY***/
@@ -172,12 +186,19 @@
    }
 }
 
+.image-1 {
+    height: 400px;
+    width: 400px;
+}
+.image-2 {
+    height: 400px;
+    width: 400px;
+}
 
-
-
-
-
-
+.image-3 {
+    height: 400px;
+    width: 400px;
+}
 
 
 /***PHONE MEDIA QUERY***/
