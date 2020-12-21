@@ -2,7 +2,10 @@
 /*** #547980 light; & #1e3135 dark ***/
 @media (max-width: 1440px) {
     html {
-    background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  #1c292c;
 }
 
     h1 {
@@ -12,6 +15,7 @@
         padding: 8px;
         padding-left: 5%;
         padding-right: 5%;
+        text-align: center;
 }
 
     h2 {
@@ -19,11 +23,12 @@
         color: blue;
         padding: 2rem;
         font-family: 'Nobile', sans-serif;
+        
 }
 
     h3 {
         font-size: 1.5rem;
-        color: #547980;
+        color: blue;
         font-family: 'Nobile', sans-serif;
         padding-left: 5%;
 }
@@ -41,19 +46,16 @@
     #profile-image {
         height: 300px;
         border-radius: 180px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 2rem;
     }
 
     div#About-me {
-    display: flex;
-    flex: 0 20%;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 2rem;
-}
+        display: flex;
+        flex: 0 20%;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 2rem;
+    }
 
     #about-me-image {
     height: 200px;
@@ -80,7 +82,7 @@
     p {
         display: flex;
         flex-flow: row wrap;
-        color: #547980;
+        color: white;
         width: 60%;
         flex-basis: 2;
         font-size: 1rem;
@@ -138,6 +140,7 @@
     align-items: center;
 }
 
+
 /***Smaller Scree MEDIA QUERY***/
 @media (max-width: 900px) {
     header{
@@ -149,11 +152,8 @@
     }
 
     #profile-image {
-        height: 100px;
+        height: 300px;
         border-radius: 180px;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 2rem;
     }
     
     div#Projects {
@@ -184,21 +184,26 @@
    p {
        width: 100%;
    }
-}
 
-.image-1 {
-    height: 400px;
-    width: 400px;
-}
-.image-2 {
-    height: 400px;
-    width: 400px;
-}
+    .image-1 {
+        min-width: 60%;
+        min-height: 60%;
+        max-width: 70%;
+        max-width: 70%;
+    }
+    .image-2 {
+        min-width: 60%;
+        min-height: 60%;
+        max-width: 70%;
+        max-width: 70%;
+    }
 
-.image-3 {
-    height: 400px;
-    width: 400px;
-}
+    .image-3 {
+        min-width: 60%;
+        min-height: 60%;
+        max-width: 70%;
+        max-width: 70%;
+    }
 
 
 /***PHONE MEDIA QUERY***/
